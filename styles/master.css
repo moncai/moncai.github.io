@@ -1,0 +1,157 @@
+/*
+  Moncai: theme master
+  --------------------------------------
+  Author:    Dale Ragan (http://moncai.com/)
+  Version:   101110
+  Copyright: (c) 2015 Moncai, LLC. All rights reserved.
+*/
+
+@font-face {
+  font-family: sine-helvetica;
+  src: url(../fonts/helvetica-conth.ttf);
+}
+
+body {
+  background: #FFF url(../images/body-background.jpg);
+  font: 13px/1.231 Georgia, "Times New Roman", Times, sans-serif;
+  *font-size: small;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+a:link, a:visited {
+  color: #EACD65;
+  outline: none;
+}
+
+a:hover {
+  color: #7094AE; /*#FBB03B; */
+  text-decoration: none;
+}
+
+#container {
+  margin: 50px auto 0px auto;
+  width: 1140px;
+  height: 750px;
+}
+
+.content {
+  border: #3B4E5D 1px solid;
+  padding: 2px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content-inner {
+  background: #1B2E3D url(../images/content-background.jpg);
+  padding: 20px 40px;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+  width: 45%;
+  text-align: left;
+  height: 200px;
+}
+
+.right {
+  text-align: left;
+  height: 200px;
+}
+
+#header {
+  height: 125px;
+}
+
+#header #logo {
+  float: left;
+}
+
+#beta-sign-up {
+  background: url(../images/content-dark-background.jpg);
+  margin: 25px 0px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#beta-sign-up h3 {
+  display: block;
+  font-size: 2.0em;
+  font-family: sine-helvetica;
+  font-weight: bold;
+  color: #7094AE;
+}
+
+#beta-sign-up form label {
+  display: block;
+  float: left;
+  margin-top: 5px;
+  font-size: 2.0em;
+  font-family: sine-helvetica;
+  font-weight: bold;
+  color: #7094AE;
+}
+
+#form-elements {
+  float: right;
+}
+
+#beta-sign-up form input {
+  padding: 0px 10px;
+  background: #12202B;
+  width: 400px;
+  height: 39px;
+  font-size: 1.4em;
+  color: #5E7889;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+#beta-sign-up form input[type="submit"] {
+  background-color: #EACD65;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: none;
+  color: #905E19;
+  width: 87px;
+  height: 37px;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#beta-sign-up form input[type="submit"]:hover {
+  color: #12202B;
+}
+
+#main h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+#main p {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+#footer {
+  margin-top: 15px;
+}
+
+/*-  CLEAR FLOATS
+----------------------------------------------------------------------*/
+.group:after {
+  content: ".";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
